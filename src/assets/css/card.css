@@ -1,0 +1,31 @@
+.card {
+  width: 100%;
+  text-decoration: none;
+  border: none;
+  border-radius: 0%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.image-box {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+}
+.image-box img {
+  width: 200px;
+  transition: all 0.3s;
+  display: block;
+  height: 200px;
+  transform: scale(1);
+}
+.image-box:hover img {
+  transform: scale(1.1);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

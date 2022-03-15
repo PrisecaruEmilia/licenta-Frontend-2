@@ -1,0 +1,27 @@
+.features-products {
+  margin-top: 30px;
+  padding-top: 30px;
+  background-color: #4e4e50;
+  border-radius: 10px;
+}
+
+.features-products-row {
+  /* background-color: #4e4e50; */
+}
+.first-feature-product-col {
+  display: flex;
+  align-items: center;
+}
+.first-feature-product-div {
+  background-image: url('https://media.istockphoto.com/photos/fashion-white-sneakers-in-neon-light-sport-shoes-for-training-in-the-picture-id1301394040?b=1&k=20&m=1301394040&s=170667a&w=0&h=DM2FyLVbwZ-YjZeb5P8d45RgF2x_gTmT8kC66u7zIrk=');
+  background-color: #4e4e50;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  background-size: contain;
+  width: 100%;
+}
+
+.shoe-category {
+  color: #fd806e;
+}
