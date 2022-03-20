@@ -50,16 +50,15 @@
   color: #fff;
 }
 
-.featured-card-begin {
-  background-color: #4e4e50;
-}
-
-.featured-card-middle {
-  background-color: #38383a;
-}
-
+.featured-card-begin,
+.collection-card-begin,
 .categories-card {
   background-color: #4e4e50;
+}
+
+.featured-card-middle,
+.collection-card-middle {
+  background-color: #38383a;
 }
 
 .featured-card-last {
