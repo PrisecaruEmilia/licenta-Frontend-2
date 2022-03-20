@@ -58,6 +58,10 @@
   background-color: #38383a;
 }
 
+.categories-card {
+  background-color: #4e4e50;
+}
+
 .featured-card-last {
   background: rgb(252, 162, 112);
   background: linear-gradient(
