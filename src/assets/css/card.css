@@ -52,12 +52,14 @@
 
 .featured-card-begin,
 .collection-card-begin,
-.categories-card {
+.categories-card,
+.new-arrivals-card {
   background-color: #4e4e50;
 }
 
 .featured-card-middle,
-.collection-card-middle {
+.collection-card-middle,
+.new-arrivals-card-even {
   background-color: #38383a;
 }
 
