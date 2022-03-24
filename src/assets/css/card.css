@@ -5,17 +5,38 @@
   border-radius: 0%;
   /* background-color: #4e4e50; */
 }
-.image-box {
+
+/* wtf with image-box */
+
+/* .image-box {
   position: relative;
   margin: auto;
   overflow: hidden;
   width: 100%;
-}
+} */
+
+/* .populars-image-box {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+} */
+
 .image-box img {
   width: 150px;
   transition: all 0.3s;
   display: block;
   height: 150px;
+  transform: scale(1);
+  -webkit-filter: drop-shadow(5px 5px 5px #222222);
+  filter: drop-shadow(5px 5px 5px #222222);
+}
+
+.populars-image-box img {
+  width: 200px;
+  transition: all 0.3s;
+  display: block;
+  height: 200px;
   transform: scale(1);
   -webkit-filter: drop-shadow(5px 5px 5px #222222);
   filter: drop-shadow(5px 5px 5px #222222);
@@ -28,6 +49,13 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.populars-center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 .top-card {
   display: flex;
@@ -70,6 +98,13 @@
     rgba(252, 162, 112, 1) 0%,
     rgba(254, 115, 96, 1) 100%
   );
+}
+
+.populars-card-slide {
+  background-image: url('https://i.pinimg.com/474x/a9/75/7b/a9757bc7b53610cc153b79bcb830da8d.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .featured-card-last > .top-card > .card-tag {
