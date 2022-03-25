@@ -80,6 +80,13 @@
 }
 
 /* responsive */
+
+@media screen and (max-width: 1400px) {
+  .megaMenuHome {
+    padding-top: 50%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .first-feature-product-image,
   .last-collection-product-image {
