@@ -16,7 +16,7 @@ export class MegaMenu extends Component {
     var i;
     for (i = 0; i < accNum; i++) {
       acc[i].addEventListener('click', function () {
-        this.classList.toggle('active');
+        this.classList.toggle('megaMenuActive');
         var panel = this.nextElementSibling;
         if (panel.style.maxHeight) {
           panel.style.maxHeight = null;
@@ -28,101 +28,104 @@ export class MegaMenu extends Component {
   }
   render() {
     return (
-      <div className="megaMenuAccordionMenuDiv">
-        <div className="megaMenuAccordionMenuDivInside">
-          <button className="megaMenuAccordion">
-            <img className="megaMenuAccordionMenuIcon" src={shoe_4} />
-            &nbsp; Men's Shoes
-          </button>
-          <div className="panel">
-            <ul>
-              <li>
-                <a href="#" className="megaMenuAccordionItem">
-                  Mans Shoes 1
-                </a>
-              </li>
-              <li>
-                <a href="#" className="megaMenuAccordionItem">
-                  Mans Shoes 2
-                </a>
-              </li>
-            </ul>
-          </div>
+      <div className="megaMenuHome">
+        {' '}
+        <div className="megaMenuAccordionMenuDiv">
+          <div className="megaMenuAccordionMenuDivInside">
+            <button className="megaMenuAccordion">
+              <img className="megaMenuAccordionMenuIcon" src={shoe_4} />
+              &nbsp; Men's Shoes
+            </button>
+            <div className="panel">
+              <ul>
+                <li>
+                  <a href="#" className="megaMenuAccordionItem">
+                    Mans Shoes 1
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="megaMenuAccordionItem">
+                    Mans Shoes 2
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-          <button className="megaMenuAccordion">
-            <img className="megaMenuAccordionMenuIcon" src={shoe_4} />
-            &nbsp; Men's Shoes
-          </button>
-          <div className="panel">
-            <ul>
-              <li>
-                <a href="#" className="megaMenuAccordionItem">
-                  Mans Shoes 1
-                </a>
-              </li>
-              <li>
-                <a href="#" className="megaMenuAccordionItem">
-                  Mans Shoes 2
-                </a>
-              </li>
-            </ul>
-          </div>
+            <button className="megaMenuAccordion">
+              <img className="megaMenuAccordionMenuIcon" src={shoe_4} />
+              &nbsp; Men's Shoes
+            </button>
+            <div className="panel">
+              <ul>
+                <li>
+                  <a href="#" className="megaMenuAccordionItem">
+                    Mans Shoes 1
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="megaMenuAccordionItem">
+                    Mans Shoes 2
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-          <button className="megaMenuAccordion">
-            <img className="megaMenuAccordionMenuIcon" src={shoe_4} />
-            &nbsp; Men's Shoes
-          </button>
-          <div className="panel">
-            <ul>
-              <li>
-                <a href="#" className="megaMenuAccordionItem">
-                  Mans Shoes 1
-                </a>
-              </li>
-              <li>
-                <a href="#" className="megaMenuAccordionItem">
-                  Mans Shoes 2
-                </a>
-              </li>
-            </ul>
-          </div>
+            <button className="megaMenuAccordion">
+              <img className="megaMenuAccordionMenuIcon" src={shoe_4} />
+              &nbsp; Men's Shoes
+            </button>
+            <div className="panel">
+              <ul>
+                <li>
+                  <a href="#" className="megaMenuAccordionItem">
+                    Mans Shoes 1
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="megaMenuAccordionItem">
+                    Mans Shoes 2
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-          <button className="megaMenuAccordion">
-            <img className="megaMenuAccordionMenuIcon" src={shoe_4} />
-            &nbsp; Men's Shoes
-          </button>
-          <div className="panel">
-            <ul>
-              <li>
-                <a href="#" className="megaMenuAccordionItem">
-                  Mans Shoes 1
-                </a>
-              </li>
-              <li>
-                <a href="#" className="megaMenuAccordionItem">
-                  Mans Shoes 2
-                </a>
-              </li>
-            </ul>
-          </div>
+            <button className="megaMenuAccordion">
+              <img className="megaMenuAccordionMenuIcon" src={shoe_4} />
+              &nbsp; Men's Shoes
+            </button>
+            <div className="panel">
+              <ul>
+                <li>
+                  <a href="#" className="megaMenuAccordionItem">
+                    Mans Shoes 1
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="megaMenuAccordionItem">
+                    Mans Shoes 2
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-          <button className="megaMenuAccordion">
-            <img className="megaMenuAccordionMenuIcon" src={shoe_4} />
-            &nbsp; Men's Shoes
-          </button>
-          <div className="panel">
-            <ul>
-              <li>
-                <a href="#" className="megaMenuAccordionItem">
-                  Mans Shoes 1
-                </a>
-              </li>
-              <li>
-                <a href="#" className="megaMenuAccordionItem">
-                  Mans Shoes 2
-                </a>
-              </li>
-            </ul>
+            <button className="megaMenuAccordion">
+              <img className="megaMenuAccordionMenuIcon" src={shoe_4} />
+              &nbsp; Men's Shoes
+            </button>
+            <div className="panel">
+              <ul>
+                <li>
+                  <a href="#" className="megaMenuAccordionItem">
+                    Mans Shoes 1
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="megaMenuAccordionItem">
+                    Mans Shoes 2
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
